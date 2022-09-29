@@ -87,14 +87,14 @@ p {
   border-style: solid;
   width: 700px;
   height: 250px;
-  margin-left: 700px;
+  margin-left: 400px;
   margin-top: 60px;
   transform: rotateX(-45deg);
 }
 .seat-arrange {
   display: flex;
   flex-direction: row;
-  margin-left: 700px;
+  margin-left: 400px;
 }
 .row {
   position: relative;
