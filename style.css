@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Poppins:ital,wght@1,300&display=swap"rel="stylesheet");
+:root {
+  --selected: #6feaf6;
+  --text-color: #777;
+  --white: #fff;
+  --dark-text: #1c2041;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 24px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--dark-text);
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+.movie-list {
+  margin: 60px 60px;
+  width: auto;
+}
+.movie-list select {
+  width: 250px;
+  font-size: 25px;
+  position: relative;
+  bottom: 2px;
+  left: 30px;
+  height: 30px;
+}
+.seat-status {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.seat-na {
+  box-sizing: border-box;
+  color: #777;
+  background-color: #777;
+  border-style: solid;
+  width: 40px;
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+p {
+  margin-left: 50px;
+}
+.seat-selected {
+  box-sizing: border-box;
+  color: var(--selected);
+  background-color: var(--selected);
+  border-style: solid;
+  width: 40px;
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 110px;
+}
+.seat-occupied {
+  box-sizing: border-box;
+  color: var(--white);
+  background-color: var(--white);
+  border-style: solid;
+  width: 40px;
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 180px;
+}
+.screen-container {
+  perspective: 1000px;
+}
+.screen {
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--white);
+  border-style: solid;
+  width: 700px;
+  height: 250px;
+  margin-left: 700px;
+  margin-top: 60px;
+  transform: rotateX(-45deg);
+}
+.seat-arrange {
+  display: flex;
+  flex-direction: row;
+  margin-left: 700px;
+}
+.row {
+  position: relative;
+  top: 60px;
+}
+.row .seat-selected {
+  position: relative;
+  right: 110px;
+}
+
+.row .seat-occupied {
+  position: relative;
+  right: 175px;
+}
+.row1 {
+  position: relative;
+  top: 60px;
+  right: 80px;
+}
+.row1 .seat-selected {
+  position: relative;
+  right: 110px;
+}
+
+.row1 .seat-occupied {
+  position: relative;
+  right: 175px;
+}
+
+.row2 {
+  position: relative;
+  top: 60px;
+  right: 170px;
+}
+.row2 .seat-selected {
+  position: relative;
+  right: 110px;
+}
+
+.row2 .seat-occupied {
+  position: relative;
+  right: 175px;
+}
+.row3 {
+  position: relative;
+  top: 60px;
+  right: 295px;
+}
+.row3 .seat-selected {
+  position: relative;
+  right: 110px;
+}
+
+.row3 .seat-occupied {
+  position: relative;
+  right: 175px;
+}
+.row4 {
+  position: relative;
+  top: 60px;
+  right: 430px;
+}
+.row4 .seat-selected {
+  position: relative;
+  right: 105px;
+}
+
+.row4 .seat-occupied {
+  position: relative;
+  right: 175px;
+}
+.row5 {
+  position: relative;
+  bottom: 320px;
+  left: 150px;
+}
+.row5 .seat-selected {
+  position: relative;
+  right: 118px;
+}
+
+.row5 .seat-occupied {
+  position: relative;
+  right: 184px;
+}
+.row6 {
+  position: relative;
+  bottom: 650px;
+  left: 240px;
+}
+.row6 .seat-selected {
+  position: relative;
+  right: 116px;
+  top: 4px;
+}
+
+.row6 .seat-occupied {
+  position: relative;
+  right: 180px;
+  top: 4px;
+}
+.row7 {
+  position: relative;
+  bottom: 980px;
+  left: 320px;
+}
+.row7 .seat-selected {
+  position: relative;
+  right: 116px;
+  top: 4px;
+}
+.row7 .seat-na {
+  position: relative;
+  top: 8px;
+}
+
+.row7 .seat-occupied {
+  position: relative;
+  right: 180px;
+  top: 6px;
+}
+.calc-price {
+  margin: auto;
+  width: auto;
+}
+.calc-price .calc {
+  white-space: nowrap;
+  position: relative;
+  bottom: 200px;
+  right: 1030px;
+}
