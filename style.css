@@ -208,13 +208,13 @@ p {
 }
 .row7 .seat-na {
   position: relative;
-  top: 8px;
+  top: 10px;
 }
 
 .row7 .seat-occupied {
   position: relative;
   right: 180px;
-  top: 6px;
+  top: 7px;
 }
 .calc-price {
   margin: auto;
